@@ -5,7 +5,7 @@ const path = require('path');
 const ImageValidationAgent = require('./agents/ImageValidationAgent');
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 8080 , '0.0.0.0';
 
 app.use(cors());
 
